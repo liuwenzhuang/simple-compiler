@@ -1,0 +1,21 @@
+{
+  "name": "tiny-compiler",
+  "description": "a tiny-compiler to learn compilers like Babel theory under the hood",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuwenzhuang/simple-compiler.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-typescript": "^7.7.7",
+    "@types/jest": "^24.0.24",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.4"
+  }
+}
